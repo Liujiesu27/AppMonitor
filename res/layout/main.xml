@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Button android:id="@+id/btn_showapps" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/show_apps"></Button>
+    <Button android:id="@+id/btn_showapks" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/show_apks"></Button>
+    
+    <TextView android:id="@+id/tv_apps" android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+
+    
+</LinearLayout>
